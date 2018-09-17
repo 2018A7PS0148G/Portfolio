@@ -45,6 +45,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url("Images/Skills.jpg");
+  opacity: 0.95;
 }
 #i5 {
   width: 100%;
@@ -56,4 +57,59 @@ body {
   background-repeat: no-repeat;
   background-image: url("Images/Projects.jpg");
   background-attachment: fixed;
+}
+#me {
+  height: 100vh;
+  padding-top: 25vh;
+  padding-bottom: 20vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  opacity: 1;
+}
+.title {
+  text-align: center;
+  color: white;
+  font-size: 15vh;
+}
+.text {
+  text-align: center;
+  color: white;
+  font-size: 4.5vh;
+}
+.logo {
+  margin-left: 1%;
+  color: white;
+  font-size: 4.5vh;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  background-color: rgba(0,0,0,0)
+}
+
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+.c {
+  width: 90%;
+  background-color: #f44336;
+}
+.html {
+  width: 80%;
+  background-color: #4caf50;
+}
+.css {
+  width: 70%;
+  background-color: #2196f3;
+}
+.python {
+  width: 40%;
+  background-color: #808080;
 }
